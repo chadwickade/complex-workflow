@@ -12,7 +12,7 @@ jobs:
     steps:
       - run: date
   macos:
-    runs-on: 
+    runs-on: ubuntu-latest
     steps:
       - run: date
   depends:
